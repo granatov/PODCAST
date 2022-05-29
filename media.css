@@ -1,0 +1,374 @@
+@media (max-width: 1375px) {
+  .header_top {
+    padding: 46px 30px 46px 20px;
+  }
+  .meet_inner {
+    gap: 20px;
+    justify-content: center;
+  }
+  .container_sub {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1086px) {
+  .header_img {
+    max-width: 50%;
+  }
+
+  .episodes_prev_type {
+    margin-bottom: 10px;
+  }
+  .episodes_prev_number {
+    margin-bottom: 4px;
+  }
+
+  .episodes_prev_name {
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 1.56px;
+    margin-bottom: 10px;
+  }
+
+  .episodes_prev_text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .footer_inner {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .social_list {
+    justify-content: center;
+  }
+
+  .left_side {
+    margin-bottom: 15px;
+  }
+
+  .right_side {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .footer_slyle_list {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .footer_music_list {
+    margin-left: 0px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .meet_img {
+    max-width: 55%;
+  }
+  .meet_name {
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 1.88px;
+    margin-bottom: 10px;
+  }
+  .meet_text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .meet_text + .meet_text {
+    margin-top: 15px;
+  }
+  .meet_arrow {
+    height: 80px;
+  }
+  .subscribe_inner {
+    display: block;
+    text-align: center;
+
+    margin: 50px 0;
+  }
+  .subscribe_text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .subscribe_inputs {
+    margin: 0 auto;
+  }
+  .subscribe_text_title {
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 1.88px;
+  }
+  .feedback_inner {
+    grid-template-columns: auto auto;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .header_title {
+    margin-bottom: 45px;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 2.2px;
+    max-width: 405px;
+  }
+  .header_inner {
+    margin-bottom: 45px;
+  }
+  .menu_item {
+    font-size: 15px;
+  }
+  .header_top {
+    padding: 20px 30px 15px 20px;
+  }
+  .decoration::after {
+    width: 97px;
+  }
+  .podcast_prev_item {
+    display: block;
+    text-align: center;
+  }
+  .episodes_top {
+    display: block;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .episodes_title {
+    font-size: 38px;
+    line-height: 68px;
+    letter-spacing: 1.88px;
+  }
+  .episodes_link {
+    height: 40px;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 655px) {
+  .header_center {
+    display: block;
+    text-align: center;
+  }
+  .header_img {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .header_title {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .music_logos_list {
+    justify-content: center;
+  }
+  .header_inner {
+    margin-bottom: 50px;
+  }
+
+  .meet_arrow {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .meet_name {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.88px;
+    margin-bottom: 8px;
+  }
+
+  .meet_p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .feedback_item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback_text {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 13px;
+  }
+  .feedback_name {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu_burger {
+    display: block;
+  }
+  .menu_item + .menu_item {
+    margin-left: 0;
+  }
+  .menu_item {
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+  .menu_list {
+    display: block;
+    position: absolute;
+    background-color: #191919;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    z-index: 2;
+    transform: translateY(-200%);
+  }
+
+  .menu_list.active {
+    transform: translateY(0%);
+  }
+  .menu_burger.active::before {
+    transform: rotate(45deg);
+    background-color: #118da8;
+    top: 14px;
+  }
+  .menu_burger.active::after {
+    transform: rotate(-45deg);
+    background-color: #118da8;
+    bottom: 14px;
+  }
+  .menu_burger.active span {
+    transform: scale(0);
+  }
+  .header_img {
+    max-width: 100%;
+    margin-left: -10px;
+  }
+  .episodes {
+    margin-bottom: 60px;
+  }
+
+  .episodes_prev_name {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.56px;
+  }
+  .episodes_prev_text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .episodes_top {
+    margin-bottom: 18px;
+  }
+  .meet_inner {
+    display: block;
+    text-align: center;
+  }
+  .meet_content {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .meet_img {
+    max-width: 80%;
+    margin-top: 17px;
+  }
+  .subscribe_text_title {
+    font-size: 23px;
+    line-height: 25px;
+    letter-spacing: 0.88px;
+  }
+  .subscribe_input {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .subscribe_inner {
+    padding: 20px;
+  }
+  .subscribe_inner::before {
+    display: none;
+  }
+  .container_sub {
+    padding: 0 20px;
+  }
+  .feedback_inner {
+    grid-template-columns: auto;
+  }
+  .feedback_item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 347px) {
+  .header_title {
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 291px;
+  }
+  .decoration::after {
+    width: 77px;
+    top: 33px;
+    left: -5px;
+  }
+  .episodes_title {
+    font-size: 26px;
+    line-height: 50px;
+    letter-spacing: 0.88px;
+  }
+  .episodes_prev_link {
+    height: 43px;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .podcast_prev_item + .podcast_prev_item {
+    margin-top: 20px;
+  }
+  .podcast_prev_item {
+    padding: 20px;
+  }
+  .meet_img {
+    max-width: 100%;
+  }
+  .meet_inner {
+    margin-bottom: 40px;
+  }
+  .subscribe_text_title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .subscribe_text_p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .subscribe_input::placeholder {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .subscribe_input {
+    padding-left: 8px;
+  }
+  .feedback_item {
+    padding: 15px;
+  }
+  .feedback_text {
+    font-size: 19px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .feedback_name {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .feedback_inner {
+    margin-bottom: 40px;
+  }
+}

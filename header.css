@@ -1,0 +1,122 @@
+.header_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 93px;
+}
+.logo {
+  z-index: 10;
+}
+.header_top {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 70px 46px 50px;
+}
+.menu_burger {
+  display: none;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  z-index: 10;
+  margin-left: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.menu_burger::after,
+.menu_burger::before {
+  content: "";
+  background-color: #fff;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  transition: all 0.5s;
+}
+.menu_burger::after {
+  bottom: 0;
+  left: 0;
+}
+.menu_burger::before {
+  top: 0;
+  left: 0;
+}
+.menu_burger span {
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 14px;
+  transition: all 0.5s;
+}
+
+.menu_list {
+  display: flex;
+  transition: all 0.5s;
+}
+.menu_item {
+  font-size: 17px;
+  line-height: 27px;
+}
+.menu_item + .menu_item {
+  margin-left: 40px;
+}
+
+.menu_link:hover {
+  color: #118da8;
+}
+
+.header_center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1240px;
+  position: relative;
+}
+
+.header_img {
+  margin-right: 25px;
+}
+.header_img img {
+  width: 100%;
+}
+
+.header_title {
+  margin-bottom: 74px;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  font-weight: 400;
+  max-width: 530px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.decoration {
+  position: relative;
+}
+
+.decoration::after {
+  content: "";
+  background-image: url(template/blue_line.svg);
+  width: 163px;
+  height: 11px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+  bottom: 0;
+}
+.music_logos_text {
+  margin-bottom: 16px;
+}
+.music_logos_list {
+  display: flex;
+}
+.music_logos_item + .music_logos_item {
+  margin-left: 17px;
+}

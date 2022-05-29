@@ -1,0 +1,42 @@
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 127px;
+}
+.footer_logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.right_side {
+  display: flex;
+  margin-right: 221px;
+}
+.footer_music_list {
+  display: flex;
+  gap: 17px;
+  margin-left: 16px;
+}
+.footer_menu_item + .footer_menu_item {
+  margin-top: 10px;
+}
+.footer_slyle_list {
+  margin-left: 120px;
+}
+.footer_style_item + .footer_style_item {
+  margin-top: 10px;
+}
+
+.footer_menu_link,
+.footer_slyle_link {
+  transition: all 0.3s;
+}
+
+.footer_menu_link:hover,
+.footer_style_link:hover {
+  color: #118da8;
+}
+
+.social_link:hover svg path {
+  stroke: #118da8;
+}
